@@ -10,6 +10,6 @@ EXPOSE 8501
 
 COPY . /app
 
-ENTRYPOINT ["streamlit", "run", "--server.port=8501", "--server.address=0.0.0.0"]
+ENTRYPOINT ["streamlit", "run"]
 
 CMD ["StreamlitAppImerys.py"]
