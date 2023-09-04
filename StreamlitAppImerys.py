@@ -1,3 +1,3 @@
- import streamlit as st
+import streamlit as st
 
 st.header("Welcome to the Imerys Streamlit App Test")
